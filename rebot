@@ -1,0 +1,16 @@
+curl -X POST http://localhost:8080/api/miner/reboot
+
+
+#### 5. `docs/troubleshooting.md`
+A guide to solve common issues.
+
+```markdown
+# Troubleshooting Guide
+
+## Issue: Miner Is Not Connecting to the Network
+- Check your internet connection.
+- Ensure the correct ports are open on your router (port 44158).
+
+## Issue: Low Earnings
+- Try changing the antenna for better coverage.
+- Check for nearby miners that may be causing interference.
